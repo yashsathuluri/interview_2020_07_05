@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="187.980493">
+<testcase classname="IMMJ Adding a new computer" name="User being taken from the homepage to add a new computer page." time="94.839733">
+<system-out><![CDATA[Given User is on the home URL...............................................passed
+When User clicks on the button Add a new Computer...........................passed
+Then Useris taken to add a New Computer Page."..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="IMMJ Adding a new computer" name="Adding a new computer to the table" time="93.14076">
+<system-out><![CDATA[Given "Given  Given User is now on Computer page............................passed
+When User enters the ComputerName...........................................passed
+And User enters the Introduced date ('yyyy-MM-dd') format...................passed
+And User enters the Discontinued date ('yyyy-MM-dd') format.................passed
+And User picks the Company from the drop down list..........................passed
+Then Click create this computer button......................................passed
+Then User shoulld be able to add the Computer Name. ".......................passed
+]]></system-out>
+</testcase>
+</testsuite>

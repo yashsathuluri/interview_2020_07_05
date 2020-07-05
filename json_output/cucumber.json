@@ -1,0 +1,206 @@
+[
+  {
+    "comments": [
+      {
+        "line": 1,
+        "value": "# new feature"
+      },
+      {
+        "line": 2,
+        "value": "# Tags: optional"
+      }
+    ],
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 53072002800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Testframework.open()"
+            }
+          }
+        ],
+        "line": 5,
+        "name": "User being taken from the homepage to add a new computer page.",
+        "description": "",
+        "id": "immj-adding-a-new-computer;user-being-taken-from-the-homepage-to-add-a-new-computer-page.",
+        "after": [
+          {
+            "result": {
+              "duration": 10293149300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Testframework.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24480600900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the home URL",
+            "match": {
+              "location": "Enquirestepdef.user_is_on_the_home_URL()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5860875600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on the button Add a new Computer.",
+            "match": {
+              "location": "Enquirestepdef.user_clicks_on_the_button_Add_a_new_Computer()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1133104700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Useris taken to add a New Computer Page.\"",
+            "match": {
+              "location": "Enquirestepdef.useris_taken_to_add_a_New_Computer_Page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 31478303600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Testframework.open()"
+            }
+          }
+        ],
+        "line": 12,
+        "name": "Adding a new computer to the table",
+        "description": "",
+        "id": "immj-adding-a-new-computer;adding-a-new-computer-to-the-table",
+        "after": [
+          {
+            "result": {
+              "duration": 37138947400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Testframework.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5725563100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "\"Given  Given User is now on Computer page.",
+            "match": {
+              "location": "Enquirestepdef.given_Given_User_is_now_on_Computer_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6439814800,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters the ComputerName.",
+            "match": {
+              "location": "Enquirestepdef.user_enters_the_ComputerName()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5409095000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters the Introduced date (\u0027yyyy-MM-dd\u0027) format.",
+            "match": {
+              "location": "Enquirestepdef.user_enters_the_Introduced_date_yyyy_MM_dd_format()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1233853300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters the Discontinued date (\u0027yyyy-MM-dd\u0027) format.",
+            "match": {
+              "location": "Enquirestepdef.user_enters_the_Discontinued_date_yyyy_MM_dd_format()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1270776100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User picks the Company from the drop down list",
+            "match": {
+              "location": "Enquirestepdef.user_picks_the_Company_from_the_drop_down_list()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3840611000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Click create this computer button.",
+            "match": {
+              "location": "Enquirestepdef.click_create_this_computer_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 603795200,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User shoulld be able to add the Computer Name. \"",
+            "match": {
+              "location": "Enquirestepdef.user_shoulld_be_able_to_add_the_Computer_Name()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "IMMJ Adding a new computer",
+    "description": "",
+    "id": "immj-adding-a-new-computer",
+    "keyword": "Feature",
+    "uri": "src/test/java/forsalefeature/IMMJ.feature"
+  }
+]
